@@ -1,0 +1,59 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/app/globals.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  background:
+    radial-gradient(circle at top left, #f5efe5 0, transparent 35%),
+    linear-gradient(135deg, #fafaf9, #f3f0ea);
+  color: #1c1917;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.card {
+  background: rgba(255,255,255,.82);
+  border: 1px solid rgba(231,229,228,.9);
+  border-radius: 28px;
+  box-shadow: 0 24px 80px rgba(28,25,23,.08);
+  -webkit-backdrop-filter: blur(14px);
+          backdrop-filter: blur(14px);
+}
+
+.btn {
+  border: 0;
+  border-radius: 16px;
+  padding: 13px 20px;
+  background: #1c1917;
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+  transition: .2s;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+  opacity: .92;
+}
+
+.btn-light {
+  background: #f5f5f4;
+  color: #1c1917;
+}
+
+.input {
+  width: 100%;
+  padding: 14px;
+  border-radius: 16px;
+  border: 1px solid #e7e5e4;
+  outline: none;
+  background: white;
+}
